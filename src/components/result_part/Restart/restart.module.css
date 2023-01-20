@@ -1,0 +1,19 @@
+.button_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.restart {
+    padding: 1vh 6vh;
+    border: none;
+    cursor: pointer;
+    background: white;
+    transition: 0.3s;
+}
+
+.restart:hover {
+    color: white;
+    background: black;
+}

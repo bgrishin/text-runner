@@ -1,0 +1,56 @@
+.content {
+    max-width: 120vh;
+    padding: 4vh 2vh;
+    transition: 2s;
+}
+.main {
+    overflow: hidden;
+    max-height: 36vh;
+}
+
+
+/*adaptive*/
+@media screen and (min-height: 896px) {
+    .main {
+        min-height: 46vh;
+    }
+    .content.slide {
+        transform: translateY(-43vh);
+    }
+}
+
+@media screen and (min-height: 844px) {
+    .main {
+        min-height: 48vh;
+    }
+    .content.slide {
+        transform: translateY(-48vh);
+    }
+}
+
+@media screen and (min-height: 667px) {
+    .main {
+        min-height: 50vh;
+    }
+    .content.slide {
+        transform: translateY(-50vh);
+    }
+}
+
+@media screen and (min-height: 915px) {
+    .main {
+        min-height: 51vh;
+    }
+    .content.slide {
+        transform: translateY(-51vh);
+    }
+}
+
+@media screen and (min-height: 653px) {
+    .main {
+        min-height: 55vh;
+    }
+    .content.slide {
+        transform: translateY(-55vh);
+    }
+}

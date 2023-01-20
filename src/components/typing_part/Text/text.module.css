@@ -1,0 +1,32 @@
+.text {
+    font-size: 2.5vh;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+input[type='text'] {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.correct {
+    color: white;
+}
+
+.incorrect {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.correct.active, .incorrect.active {
+    animation: borderPulsing 0.7s linear infinite;
+}
+
+@keyframes borderPulsing {
+    0%, 100% {
+        border-right: 1px solid rgba(255, 255, 255, 0);
+    }
+
+    50% {
+        border-right: 1px solid white;
+    }
+}

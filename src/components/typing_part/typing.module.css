@@ -1,0 +1,33 @@
+.playground {
+    min-height: 35vh;
+}
+
+@media screen and (min-height: 896px) {
+    .playground {
+        min-height: 46vh;
+    }
+}
+
+@media screen and (min-height: 844px) {
+    .playground {
+        min-height: 48vh;
+    }
+}
+
+@media screen and (min-height: 667px) {
+    .playground {
+        min-height: 50vh;
+    }
+}
+
+@media screen and (min-height: 915px) {
+    .playground {
+        min-height: 51vh;
+    }
+}
+
+@media screen and (min-height: 653px) {
+    .playground {
+        min-height: 55vh;
+    }
+}

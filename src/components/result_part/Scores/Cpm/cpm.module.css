@@ -1,0 +1,26 @@
+.cpm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.cpm > p {
+    font-weight: 300;
+    font-size: 2.3vh;
+}
+
+.cpm_value {
+    font-size: 10vh;
+}
+
+.bar {
+    width: 100%;
+    height: 1px;
+    margin: 1vh 0;
+}
+
+.cpm .bar {
+    background: linear-gradient(to right, #d000ff, #00ffd0);
+}
